@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="title">
+        <div class="container-fluid">
+            <img src="https://static.toiimg.com/photo/45372282.cms" alt="TOI">
+        </div>
+    </section>
+    
+    <section id="navigation">
+
+
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #be2819 ;">
+                <div class="container">
+                <a class="navbar-brand ps-5" href=""><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                    width="20" height="20"
+                    viewBox="0 0 172 172"
+                    style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M86,3.61469c-0.7482,0 -1.49345,0.23731 -2.12985,0.71891l-79.12,61.75203c-1.4792,1.1696 -1.75413,3.33062 -0.58453,4.84422c1.1696,1.4792 3.33062,1.75413 4.84422,0.58453l4.75016,-3.70875v90.43437c0,1.892 1.548,3.44 3.44,3.44h48.16v-61.92h41.28v61.92h48.16c1.892,0 3.44,-1.548 3.44,-3.44v-90.43437l4.75015,3.70875c0.6536,0.4816 1.37305,0.72563 2.12985,0.72563c1.032,0 2.02638,-0.45015 2.71437,-1.31015c1.1696,-1.5136 0.89467,-3.67462 -0.58453,-4.84422l-79.12,-61.75203c-0.6364,-0.4816 -1.38165,-0.71891 -2.12985,-0.71891zM120.4,17.2v3.61469l20.64,16.09813v-19.71281z"></path></g></g></svg></a>
+              
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    
+                    <ul class="navbar-nav ">
+                         <li class="nav-item">
+                             <a class="nav-link text-white" href="">Latest news</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link text-white" href="">Most Shared</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link text-white" href="">Most Read</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="">Most rotated</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="">Most Commented</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="">Most popular</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="">Delhi Elections</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="">Bihar Elections</a>
+                        </li>
+                     </ul>
+                     <!-- <div id="myOverlay" class="overlay">
+                        <span class="closebtn" onclick="closeSearch()" title="Close Overlay"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                            width="30" height="30"
+                            viewBox="0 0 172 172"
+                            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M74.53333,17.2c-31.59642,0 -57.33333,25.73692 -57.33333,57.33333c0,31.59642 25.73692,57.33333 57.33333,57.33333c13.73998,0 26.35834,-4.87915 36.24766,-12.97839l34.23203,34.23203c1.43802,1.49778 3.5734,2.10113 5.5826,1.57735c2.0092,-0.52378 3.57826,-2.09284 4.10204,-4.10204c0.52378,-2.0092 -0.07957,-4.14458 -1.57735,-5.5826l-34.23203,-34.23203c8.09924,-9.88932 12.97839,-22.50768 12.97839,-36.24766c0,-31.59642 -25.73692,-57.33333 -57.33333,-57.33333zM74.53333,28.66667c25.39937,0 45.86667,20.4673 45.86667,45.86667c0,25.39937 -20.46729,45.86667 -45.86667,45.86667c-25.39937,0 -45.86667,-20.46729 -45.86667,-45.86667c0,-25.39937 20.4673,-45.86667 45.86667,-45.86667z"></path></g></g></svg></span>
+                        <div class="overlay-content">
+                          <form action="action_page.php">
+                            <input type="text" placeholder="Search.." name="search">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                          </form>
+                        </div>
+                      </div> -->
+                </div>
+            </nav>
+
+        </div>
+    </section>
+
+    <section id="context" class="container">
+        <div class="row">
+                <h1>LATEST NEWS</h1>
+        <div id="news" class="col-lg-8">
+            <table>
+                <tr class="newsouter">
+                  <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-33454,msid-89980493,width-141,resizemode-4/89980493.jpg" alt="TOI"></td>
+                  <td class="headline">Live: Australian spin legend Shane Warne dies of suspected heart attack at 52</td>
+                </tr>
+                <tr class="newsouter">
+                    <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-53912,msid-89956114,width-141,resizemode-4/89956114.jpg" alt="TOI"></td>
+                    <td class="headline">Live: Ukraine-Russia to hold 3rd round of talks this weekend</td>
+                  </tr>
+                  <tr class="newsouter">
+                    <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-23340,msid-89989024,width-141,resizemode-4/89989024.jpg" alt="TOI"></td>
+                    <td class="headline">5G phones with big battery you can buy under Rs 20,000</td>
+                  </tr>
+                  <tr class="newsouter">
+                    <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-30256,msid-89971695,width-141,resizemode-4/89971695.jpg" alt="TOI"></td>
+                    <td class="headline">Where Putin, his family & friends allegedly stash their wealth</td>
+                  </tr>
+                  <tr class="newsouter">
+                    <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-950284,msid-89993529,width-141,resizemode-4/89993529.jpg" alt="TOI"></td>
+                    <td class="headline">How to share WhatsApp status updates to other apps</td>
+                  </tr>
+                  <tr class="newsouter">
+                    <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-43566,msid-89998413,width-141,resizemode-4/89998413.jpg" alt="TOI"></td>
+                    <td class="headline">Shane Warne's top 3 moments in international cricket</td>
+                  </tr>
+                  <tr class="newsouter">
+                    <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-108322,msid-89998283,width-141,resizemode-4/89998283.jpg" alt="TOI"></td>
+                    <td class="headline">Bhagalpur explosion: Death toll rises to 14</td>
+                  </tr>
+                  <tr class="newsouter">
+                    <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-33454,msid-89980493,width-141,resizemode-4/89980493.jpg" alt="TOI"></td>
+                    <td class="headline">Live: Australian spin legend Shane Warne dies of suspected heart attack at 52</td>
+                  </tr>
+                  <tr class="newsouter">
+                      <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-53912,msid-89956114,width-141,resizemode-4/89956114.jpg" alt="TOI"></td>
+                      <td class="headline">Live: Ukraine-Russia to hold 3rd round of talks this weekend</td>
+                    </tr>
+                    <tr class="newsouter">
+                      <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-23340,msid-89989024,width-141,resizemode-4/89989024.jpg" alt="TOI"></td>
+                      <td class="headline">5G phones with big battery you can buy under Rs 20,000</td>
+                    </tr>
+                    <tr class="newsouter">
+                      <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-30256,msid-89971695,width-141,resizemode-4/89971695.jpg" alt="TOI"></td>
+                      <td class="headline">Where Putin, his family & friends allegedly stash their wealth</td>
+                    </tr>
+                    <tr class="newsouter">
+                      <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-950284,msid-89993529,width-141,resizemode-4/89993529.jpg" alt="TOI"></td>
+                      <td class="headline">How to share WhatsApp status updates to other apps</td>
+                    </tr>
+                    <tr class="newsouter">
+                      <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-43566,msid-89998413,width-141,resizemode-4/89998413.jpg" alt="TOI"></td>
+                      <td class="headline">Shane Warne's top 3 moments in international cricket</td>
+                    </tr>
+                    <tr class="newsouter">
+                      <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-108322,msid-89998283,width-141,resizemode-4/89998283.jpg" alt="TOI"></td>
+                      <td class="headline">Bhagalpur explosion: Death toll rises to 14</td>
+                    </tr>
+                    <tr class="newsouter">
+                        <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-33454,msid-89980493,width-141,resizemode-4/89980493.jpg" alt="TOI"></td>
+                        <td class="headline">Live: Australian spin legend Shane Warne dies of suspected heart attack at 52</td>
+                      </tr>
+                      <tr class="newsouter">
+                          <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-53912,msid-89956114,width-141,resizemode-4/89956114.jpg" alt="TOI"></td>
+                          <td class="headline">Live: Ukraine-Russia to hold 3rd round of talks this weekend</td>
+                        </tr>
+                        <tr class="newsouter">
+                          <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-23340,msid-89989024,width-141,resizemode-4/89989024.jpg" alt="TOI"></td>
+                          <td class="headline">5G phones with big battery you can buy under Rs 20,000</td>
+                        </tr>
+                        <tr class="newsouter">
+                          <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-30256,msid-89971695,width-141,resizemode-4/89971695.jpg" alt="TOI"></td>
+                          <td class="headline">Where Putin, his family & friends allegedly stash their wealth</td>
+                        </tr>
+                        <tr class="newsouter">
+                          <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-950284,msid-89993529,width-141,resizemode-4/89993529.jpg" alt="TOI"></td>
+                          <td class="headline">How to share WhatsApp status updates to other apps</td>
+                        </tr>
+                        <tr class="newsouter">
+                          <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-43566,msid-89998413,width-141,resizemode-4/89998413.jpg" alt="TOI"></td>
+                          <td class="headline">Shane Warne's top 3 moments in international cricket</td>
+                        </tr>
+                        <tr class="newsouter">
+                          <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-108322,msid-89998283,width-141,resizemode-4/89998283.jpg" alt="TOI"></td>
+                          <td class="headline">Bhagalpur explosion: Death toll rises to 14</td>
+                        </tr>
+                        <tr class="newsouter">
+                            <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-33454,msid-89980493,width-141,resizemode-4/89980493.jpg" alt="TOI"></td>
+                            <td class="headline">Live: Australian spin legend Shane Warne dies of suspected heart attack at 52</td>
+                          </tr>
+                          <tr class="newsouter">
+                              <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-53912,msid-89956114,width-141,resizemode-4/89956114.jpg" alt="TOI"></td>
+                              <td class="headline">Live: Ukraine-Russia to hold 3rd round of talks this weekend</td>
+                            </tr>
+                            <tr class="newsouter">
+                              <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-23340,msid-89989024,width-141,resizemode-4/89989024.jpg" alt="TOI"></td>
+                              <td class="headline">5G phones with big battery you can buy under Rs 20,000</td>
+                            </tr>
+                            <tr class="newsouter">
+                              <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-30256,msid-89971695,width-141,resizemode-4/89971695.jpg" alt="TOI"></td>
+                              <td class="headline">Where Putin, his family & friends allegedly stash their wealth</td>
+                            </tr>
+                            <tr class="newsouter">
+                              <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-950284,msid-89993529,width-141,resizemode-4/89993529.jpg" alt="TOI"></td>
+                              <td class="headline">How to share WhatsApp status updates to other apps</td>
+                            </tr>
+                            <tr class="newsouter">
+                              <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-43566,msid-89998413,width-141,resizemode-4/89998413.jpg" alt="TOI"></td>
+                              <td class="headline">Shane Warne's top 3 moments in international cricket</td>
+                            </tr>
+                            <tr class="newsouter">
+                              <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-108322,msid-89998283,width-141,resizemode-4/89998283.jpg" alt="TOI"></td>
+                              <td class="headline">Bhagalpur explosion: Death toll rises to 14</td>
+                            </tr>
+
+
+              </table>
+        </div>
+
+        <div id="popular" class="col-lg-4">
+            <h3>MOST POPULAR</h3>
+            <nav>
+                <ul class="nav side-navbar nav-tabs">
+                    <li class="nav-item" style="background-color: #303030;">
+                    <a class="nav-link" aria-current="page" href="#">SHARED</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">COMMENTED</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">READ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">TRENDING</a>
+                    </li>
+                </ul>          
+            </nav>
+
+            <tr class="sidelines">
+                <td class="lines">Exclusive | Hrithik Roshan’s reel brother from Kaho Naa Pyaar Hai Abhishek Sharma recalls Rakesh Roshan yelling at him for a scene, staying away from limelight after Miley Jab Hum Tum</td>
+                <hr/>
+              </tr>
+              <tr class="sidelines">
+                <td class="lines">Ukraine crisis: Distance yourself from Russia, US tells India after abstentions</td>
+                <hr/>
+              </tr>
+              <tr class="sidelines">
+                <td class="lines">Ukraine crisis: Karnataka medico trolled for comments</td>
+                <hr/>
+              </tr>
+              <tr class="sidelines">
+                <td class="lines">2,000 km of rail network will be brought under 'Kavach' in 2022-'23: Railway Minister</td>
+                <hr/>
+              </tr>
+
+              <h4>Entertainment News</h4>
+              <table>
+                <tr class="newsouter">
+                  <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-28602,msid-89998456,width-150,resizemode-4/89998456.jpg" alt="TOI"></td>
+                  <td class="headline">B-Town mourns Shane Warne's sudden demise</td>
+                </tr>
+                <tr class="newsouter">
+                    <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-1215024,msid-89996104,width-150,resizemode-4/89996104.jpg" alt="TOI"></td>
+                    <td class="headline">SRK and Deepika to shoot 'Pathaan' in Spain</td>
+                  </tr>
+                  <tr class="newsouter">
+                    <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-56426,msid-89996887,width-150,resizemode-4/89996887.jpg" alt="TOI"></td>
+                    <td class="headline">Bolly Buzz: Celebs who made headlines today</td>
+                  </tr>
+                  <tr class="newsouter">
+                    <td class="thumbnail"><img src="https://static.toiimg.com/photo/89995240.cms" alt="TOI"></td>
+                    <td class="headline">When celebs dated lookalikes of their exes</td>
+                  </tr>
+                  <tr class="newsouter">
+                    <td class="thumbnail"><img src="https://static.toiimg.com/photo/89997239.cms" alt="TOI"></td>
+                    <td class="headline">Sonakshi reacts to fake wedding pic with Salman</td>
+                  </tr>
+              </table>
+
+              <h4>Buisness News</h4>
+              <hr>
+              <table>
+                <tr class="newsouter">
+                  <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-45004,msid-89999295,width-150,resizemode-4/89999295.jpg" alt="TOI"></td>
+                  <td class="headline">Steel prices jump up to Rs 5,000 per tonne as supply chains hit</td>
+                </tr>
+                <tr class="newsouter">
+                    <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-28768,msid-89998137,width-150,resizemode-4/89998137.jpg" alt="TOI"></td>
+                    <td class="headline">LED bulb scheme has saved Rs 20,000cr in power bills: PM</td>
+                  </tr>
+                  <tr class="newsouter">
+                    <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-20446,msid-89999032,width-150,resizemode-4/89999032.jpg" alt="TOI"></td>
+                    <td class="headline">Pawan Munjal opts for Vida for green vehicles</td>
+                  </tr>
+                  <tr class="newsouter">
+                    <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-106008,msid-89992718,width-150,resizemode-4/89992718.jpg" alt="TOI"></td>
+                    <td class="headline">India to raise fuel prices from next week amid inflation concerns</td>
+                  </tr>
+                  <tr class="newsouter">
+                    <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-69862,msid-89987972,width-150,resizemode-4/89987972.jpg" alt="TOI"></td>
+                    <td class="headline">LIC IPO set to be delayed to next fiscal year</td>
+                  </tr>
+              </table>
+
+              <h4>TV News</h4>
+              <hr>
+              <table>
+                <tr class="newsouter">
+                  <td class="thumbnail"><img src="https://static.toiimg.com/photo/89995922.cms" alt="TOI"></td>
+                  <td class="headline">Bold and beautiful looks of Sravanthi</td>
+                </tr>
+                <tr class="newsouter">
+                    <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-40836,msid-89991258,width-150,resizemode-4/89991258.jpg" alt="TOI"></td>
+                    <td class="headline">BB Telugu OTT: Why the show was paused for 24 hrs?</td>
+                  </tr>
+                  <tr class="newsouter">
+                    <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-86156,msid-89987693,width-150,resizemode-4/89987693.jpg" alt="TOI"></td>
+                    <td class="headline">BB Non-Stop: Sararyu & others compete for captaincy</td>
+                  </tr>
+                  <tr class="newsouter">
+                    <td class="thumbnail"><img src="https://static.toiimg.com/photo/89990227.cms" alt="TOI"></td>
+                    <td class="headline">BB Ultimate: Thamaraiselvi-Snehan reunite</td>
+                  </tr>
+                  <tr class="newsouter">
+                    <td class="thumbnail"><img src="https://static.toiimg.com/photo/89991163.cms" alt="TOI"></td>
+                    <td class="headline">‘Didi No. 1’ to feature Aindrila, Debadrita & others</td>
+                  </tr>
+              </table>
+
+              <h4>Sports News</h4>
+              <hr>
+              <table>
+                <tr class="newsouter">
+                  <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-29250,msid-89997663,width-150,resizemode-4/89997663.jpg" alt="TOI"></td>
+                  <td class="headline">Legendary Australian spinner Shane Warne dies of ‘suspected heart attack’</td>
+                </tr>
+                <tr class="newsouter">
+                    <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-43566,msid-89998413,width-150,resizemode-4/89998413.jpg" alt="TOI"></td>
+                    <td class="headline">Shane Warne's top 3 greatest moments in international cricket</td>
+                  </tr>
+                  <tr class="newsouter">
+                    <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-32710,msid-89998432,width-150,resizemode-4/89998432.jpg" alt="TOI"></td>
+                    <td class="headline">Cricket fraternity shocked as Shane Warne dies at 52</td>
+                  </tr>
+                  <tr class="newsouter">
+                    <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-20996,msid-89999550,width-150,resizemode-4/89999550.jpg" alt="TOI"></td>
+                    <td class="headline">The ball of the century that launched Shane Warne's career</td>
+                  </tr>
+                  <tr class="newsouter">
+                    <td class="thumbnail"><img src="https://static.toiimg.com/thumb/imgsize-62586,msid-89996967,width-150,resizemode-4/89996967.jpg" alt="TOI"></td>
+                    <td class="headline">In Kohli's 100th Test, Pant bludgeons 96 to steer India to a strong position</td>
+                  </tr>
+              </table>
+        </div>
+            </div>
+    </section>
+
+    <footer>
+        <div class="row">
+            <div class="col-lg-6">
+              <h5>OTHER TIMES GROUP NEWS SITES</h5>
+                <ul class="col-lg-4 col-md-6 bottom-li">
+                    <li><a> The Economic Times</a></li>
+                    <li><a> Maharastra Times </a></li>
+                    <li><a> I am Gujarat</a></li>
+                    <li><a> Education Times</a></li>
+                    <li><a> Mx TAkaTak App</a></li>
+                    <li><a> Times Points</a></li>
+                </ul>
+                <ul class="col-lg-4 col-md-6 bottom-li">
+                    <li><a> Hindi Economic Times</a></li>
+                    <li><a> Times Now </a></li>
+                    <li><a> Times Food</a></li>
+                    <li><a> Banglore Mirror</a></li>
+                    <li><a> Bengali Podcast</a></li>
+                    <li><a> India Times</a></li>
+                </ul>
+                <ul class="col-lg-4 col-md-6 bottom-li">
+                    <li><a> Navbharat Times</a></li>
+                    <li><a> Mx Player </a></li>
+                    <li><a> Times Now Bharat</a></li>
+                    <li><a> Mx ShareKaro</a></li>
+                    <li><a> Miss Kyra</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-6">
+              <div>
+              <h5>SERVICES</h5>
+                <ul class="col-lg-4 col-md-6 bottom-li">
+                    <li><a> Ads 2 Book</a></li>
+                    <li><a> Times Jobs </a></li>
+                    <li><a> Gadget Now</a></li>
+                </ul>
+                <ul class="col-lg-4 col-md-6 bottom-li">
+                    <li><a> Bollywood News</a></li>
+                    <li><a> Carrier </a></li>
+                    <li><a> Magic Bricks</a></li>
+                </ul>
+                <ul class="col-lg-4 col-md-6 bottom-li">
+                    <li><a> Times Mobile</a></li>
+                    <li><a> Colombia </a></li>
+                    <li><a> Technology</a></li>
+                </ul>
+              </div>
+                <div>
+                  <h5>POPULAR CATEGORIES</h5>
+                    <ul class="col-lg-4 col-md-6 bottom-li">
+                        <li><a> Headlines</a></li>
+                        <li><a> News India </a></li>
+
+                    </ul>
+                    <ul class="col-lg-4 col-md-6 bottom-li">
+                        <li><a> Sports News</a></li>
+                        <li><a> World News </a></li>
+
+                    </ul>
+                    <ul class="col-lg-4 col-md-6 bottom-li">
+                        <li><a> Business News</a></li>
+                        <li><a> Bollywood News </a></li>
+
+                    </ul>
+                  </div>
+            </div>
+        </div>
+        <p style="color: grey; text-align: center; font-size: small;">Copyright © 2022 Kshitij Chaudhary Web Developer</p>
+    </footer>
+    
+</body>
+</html>
