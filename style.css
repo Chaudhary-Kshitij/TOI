@@ -3,10 +3,18 @@
     text-align: center;
 }
 
-#title img{
+/* #title img{
     margin: 10px 0px 40px;
     width: 509px;
     height: 40px;
+}
+ */
+@media only screen and (min-width: 600px) {
+  #title img {
+     margin: 10px 0px 40px;
+    width: 509px;
+    height: 40px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
